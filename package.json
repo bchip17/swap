@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bluechip17/bluechip.git"
+    "url": "git@github.com:bchip17/swap-ui.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bluechip17/bluechip/issues"
+    "url": "https://github.com/bchip17/swap-ui/issues"
   },
-  "homepage": "https://github.com/bluechip17/bluechip#readme",
+  "homepage": "https://github.com/bchip17/swap-ui#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",

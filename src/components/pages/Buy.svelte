@@ -226,7 +226,7 @@
 			<a href='https://discord.gg/tJB69HJ7' target='_blank' title='Discord'>{@html DISCORD_ICON}</a>
 			<a href='https://t.me/bcpdarkofficial' target='_blank' title='Telegram'>{@html TELEGRAM_ICON}</a>
 			<a href='https://twitter.com/BlueChi47537205' target='_blank' title='Twitter'>{@html TWITTER_ICON}</a>
-			<a href='https://github.com/bluechip17' target='_blank' title='Github'>{@html GITHUB_ICON}</a>
+			<a href='https://github.com/bchip17' target='_blank' title='Github'>{@html GITHUB_ICON}</a>
 		</div>
 
 		<div class='links'>
