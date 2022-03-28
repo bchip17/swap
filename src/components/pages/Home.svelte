@@ -278,9 +278,6 @@
 			<a href='#/buy'>Buy BCP</a>
 			<a href='https://blueswap.net/whitepaper.pdf' target='_blank'>Whitepapers</a>
 			<a href='https://docs.blueswap.net/' target='_blank'>Docs</a>
-			<a href='https://www.tokenterminal.com/terminal/projects/bcp' target='_blank'>Token Terminal</a>
-			<a href='https://defillama.com/protocol/bcp' target='_blank'>Defi Llama</a>
-			<a href='https://www.immunefi.com/bounty/bcp' target='_blank'>Immunefi</a>
 		</div>
 
 	</div>
