@@ -278,6 +278,7 @@
 			<a href='#/buy'>Buy BCP</a>
 			<a href='https://blueswap.net/whitepaper.pdf' target='_blank'>Whitepapers</a>
 			<a href='https://docs.blueswap.net/' target='_blank'>Docs</a>
+			<a href='https://github.com/coinscope-co/audits/blob/main/bcp/audit.pdf' target='_blank'>Audit</a>
 		</div>
 
 	</div>
