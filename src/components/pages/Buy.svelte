@@ -224,7 +224,7 @@
 		<div class='community'>
 			<a href='https://medium.com/@bcpdarkofficial' target='_blank' title='Medium'>{@html MEDIUM_ICON}</a>
 			<a href='https://discord.gg/EjAZhpJywH' target='_blank' title='Discord'>{@html DISCORD_ICON}</a>
-			<a href='https://t.me/blueswapoffical' target='_blank' title='Telegram'>{@html TELEGRAM_ICON}</a>
+			<a href='https://t.me/blueswapcommunity' target='_blank' title='Telegram'>{@html TELEGRAM_ICON}</a>
 			<a href='https://twitter.com/bswaptoken' target='_blank' title='Twitter'>{@html TWITTER_ICON}</a>
 			<a href='https://github.com/bchip17' target='_blank' title='Github'>{@html GITHUB_ICON}</a>
 		</div>
