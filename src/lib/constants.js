@@ -112,7 +112,7 @@ export const ASSET_LINKS = {
 	reddit: 'https://www.reddit.com/user/BCProtocol',
 	github: 'https://github.com/bchip17',
 	doc: 'https://docs.blueswap.net',
-	audit_link: 'https://github.com/coinscope-co/audits/blob/main/bcp/audit.pdf',
+	audit_link: 'https://github.com/bchip17/bcptoken/blob/master/audit/audit.pdf',
 	whitepaper: 'https://blueswap.net/whitepaper.pdf',
 	uniswap_arbitrum: '#',
 	uniswap_mainnet: '#',
