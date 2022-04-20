@@ -2,6 +2,7 @@
 	import Wallet from '../Wallet.svelte'
 
 	import { currentPage } from '../../lib/stores'
+	import { ASSET_LINKS } from '../../lib/constants'
 </script>
 
 <style>
@@ -88,7 +89,7 @@
 			</a>
 			<a class='link' class:active={$currentPage == 'trade'} href='#/trade'>Trade</a>
 			<a class='link' class:active={$currentPage == 'pool'} href='#/pool'>Pool</a>
-			<a class='link' href='https://docs.blueswap.net' target='_blank'>Docs</a>
+			<a class='link' href={ASSET_LINKS['doc']} target='_blank'>Docs</a>
 		</div>
 
 		<div class='right'>

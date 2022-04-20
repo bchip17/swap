@@ -3,6 +3,7 @@
 	import { CHECKMARK_ICON, DISCORD_ICON, TWITTER_ICON, TELEGRAM_ICON, GITHUB_ICON, ARBITRUM_ICON, MEDIUM_ICON } from '../../lib/icons'
 
 	import { fade } from 'svelte/transition'
+	import { ASSET_LINKS } from '../../lib/constants'
 
 	amplitude.getInstance().logEvent('Buy');
 
@@ -189,7 +190,7 @@
 				</div>
 
 				<div class='button-wrap'>
-					<a class='button' href='https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x10f1d25619d7e8f700125dd10707374022c761a9&chain=arbitrum' target="_blank">Buy BCP on Uniswap</a>
+					<a class='button' href={ASSET_LINKS['uniswap_arbitrum']} target="_blank" disabled>Buy BCP on Uniswap</a>
 					<div class='chains'>Set your network to {@html ARBITRUM_ICON} Arbitrum</div>
 				</div>
 
@@ -216,23 +217,23 @@
 
 		</div>
 
-		<div class='coin-links'>
-			<a href='https://www.coingecko.com/en/coins/bcp' target="_blank">CoinGecko</a>
-			<a href='https://coinmarketcap.com/currencies/bcp/' target="_blank">CoinMarketCap</a>
+		<div class='coin-links' style="display: none;">
+			<a href={ASSET_LINKS['coingecko']} target="_blank">CoinGecko</a>
+			<a href={ASSET_LINKS['coinmarketcap']} target="_blank">CoinMarketCap</a>
 		</div>
 		
 		<div class='community'>
-			<a href='https://medium.com/@bcpdarkofficial' target='_blank' title='Medium'>{@html MEDIUM_ICON}</a>
-			<a href='https://discord.gg/EjAZhpJywH' target='_blank' title='Discord'>{@html DISCORD_ICON}</a>
-			<a href='https://t.me/bluechipprotocolofficial' target='_blank' title='Telegram'>{@html TELEGRAM_ICON}</a>
-			<a href='https://twitter.com/bswaptoken' target='_blank' title='Twitter'>{@html TWITTER_ICON}</a>
-			<a href='https://github.com/bchip17' target='_blank' title='Github'>{@html GITHUB_ICON}</a>
+			<a href={ASSET_LINKS['medium']} target='_blank' title='Medium'>{@html MEDIUM_ICON}</a>
+			<a href={ASSET_LINKS['discord']} target='_blank' title='Discord'>{@html DISCORD_ICON}</a>
+			<a href={ASSET_LINKS['telegram']} target='_blank' title='Telegram'>{@html TELEGRAM_ICON}</a>
+			<a href={ASSET_LINKS['twitter']} target='_blank' title='Twitter'>{@html TWITTER_ICON}</a>
+			<a href={ASSET_LINKS['github']} target='_blank' title='Github'>{@html GITHUB_ICON}</a>
 		</div>
 
 		<div class='links'>
 			<a href='/'>Home</a>
-			<a href='https://docs.blueswap.net/' target='_blank'>Docs</a>
-			<a href='https://github.com/coinscope-co/audits/blob/main/bcp/audit.pdf' target='_blank'>Audit</a>
+			<a href={ASSET_LINKS['doc']} target='_blank'>Docs</a>
+			<a href={ASSET_LINKS['audit_link']} target='_blank'>Audit</a>
 		</div>
 
 	</div>

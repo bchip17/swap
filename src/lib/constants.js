@@ -102,3 +102,20 @@ export const CHAINDATA = {
 		cap: '0x031d35296154279DC1984dCD93E392b1f946737b'
 	}
 }
+
+export const ASSET_LINKS = {
+	facebook: 'https://www.facebook.com/groups/524437452591039',
+	twitter: 'https://twitter.com/BCProtocol',
+	telegram: 'https://t.me/bcpcommunity_group',
+	discord: 'https://discord.gg/EjAZhpJywH',
+	medium: 'https://medium.com/@bcptokenmail',
+	reddit: 'https://www.reddit.com/user/BCProtocol',
+	github: 'https://github.com/bchip17',
+	doc: 'https://docs.blueswap.net',
+	audit_link: 'https://github.com/coinscope-co/audits/blob/main/bcp/audit.pdf',
+	whitepaper: 'https://blueswap.net/whitepaper.pdf',
+	uniswap_arbitrum: '#',
+	uniswap_mainnet: '#',
+	coingecko: 'https://www.coingecko.com/en/coins/bcp',
+	coinmarketcap: 'https://coinmarketcap.com/currencies/bcp'
+}

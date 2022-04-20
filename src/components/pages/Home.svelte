@@ -3,7 +3,7 @@
 
 	import { EXTERNAL_ICON, DISCORD_ICON, TWITTER_ICON, TELEGRAM_ICON, GITHUB_ICON, ARBITRUM_ICON, CHECKMARK_ICON, MEDIUM_ICON } from '../../lib/icons'
 
-	import { CURRENCY_LOGOS } from '../../lib/constants'
+	import { CURRENCY_LOGOS, ASSET_LINKS } from '../../lib/constants'
 	import { PRODUCTS } from '../../lib/products'
 	import { getChainData, formatCurrency } from '../../lib/utils'
 
@@ -267,18 +267,18 @@
 		<div class='sep'>&nbsp;</div>
 		
 		<div class='community'>
-			<a href='https://medium.com/@bcpdarkofficial' target='_blank' title='Medium'>{@html MEDIUM_ICON}</a>
-			<a href='https://discord.gg/EjAZhpJywH' target='_blank' title='Discord'>{@html DISCORD_ICON}</a>
-			<a href='https://t.me/bluechipprotocolofficial' target='_blank' title='Telegram'>{@html TELEGRAM_ICON}</a>
-			<a href='https://twitter.com/bswaptoken' target='_blank' title='Twitter'>{@html TWITTER_ICON}</a>
-			<a href='https://github.com/bchip17' target='_blank' title='Github'>{@html GITHUB_ICON}</a>
+			<a href={ASSET_LINKS['medium']} target='_blank' title='Medium'>{@html MEDIUM_ICON}</a>
+			<a href={ASSET_LINKS['discord']} target='_blank' title='Discord'>{@html DISCORD_ICON}</a>
+			<a href={ASSET_LINKS['telegram']} target='_blank' title='Telegram'>{@html TELEGRAM_ICON}</a>
+			<a href={ASSET_LINKS['twitter']} target='_blank' title='Twitter'>{@html TWITTER_ICON}</a>
+			<a href={ASSET_LINKS['github']} target='_blank' title='Github'>{@html GITHUB_ICON}</a>
 		</div>
 
 		<div class='links'>
 			<a href='#/buy'>Buy BCP</a>
-			<a href='https://blueswap.net/whitepaper.pdf' target='_blank'>Whitepapers</a>
-			<a href='https://docs.blueswap.net/' target='_blank'>Docs</a>
-			<a href='https://github.com/coinscope-co/audits/blob/main/bcp/audit.pdf' target='_blank'>Audit</a>
+			<a href={ASSET_LINKS['whitepaper']} target='_blank'>Whitepapers</a>
+			<a href={ASSET_LINKS['doc']} target='_blank'>Docs</a>
+			<a href={ASSET_LINKS['audit']} target='_blank'>Audit</a>
 		</div>
 
 	</div>
